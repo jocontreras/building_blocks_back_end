@@ -1,3 +1,3 @@
 class News < ApplicationRecord
-    validates_presence_of :title, :description
+  validates_presence_of :title, :description
 end
