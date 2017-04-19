@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe Helprequest, type: :model do
+RSpec.describe HelpRequest, type: :model do
   describe 'DB table' do
     it { is_expected.to have_db_column :title }
     it { is_expected.to have_db_column :message }
@@ -15,7 +15,7 @@ RSpec.describe Helprequest, type: :model do
 
   describe 'Factory' do
     it 'should have valid Factory' do
-      expect(create(:helprequest)).to be_valid
+      expect(create(:help_request)).to be_valid
     end
   end
 end

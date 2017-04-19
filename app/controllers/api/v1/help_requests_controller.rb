@@ -1,7 +1,7 @@
-class Api::V1::HelprequestsController < ApplicationController
+class Api::V1::HelpRequestsController < ApplicationController
   def create
-    @helprequest = Helprequest.new help_request
-    if @helprequest.save
+    @help_request = HelpRequest.new help_request
+    if @help_request.save
       render json: { message: "successful"}, status: 204
     end
   end

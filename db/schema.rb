@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 20170419114516) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "helprequests", force: :cascade do |t|
+  create_table "help_requests", force: :cascade do |t|
     t.string   "title"
     t.string   "message"
     t.boolean  "status"
