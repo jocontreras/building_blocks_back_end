@@ -1,7 +1,7 @@
-class Api::V1::CfhsController < ApplicationController
+class Api::V1::HelprequestsController < ApplicationController
   def create
-    @cfh = Cfh.new help_request
-    if @cfh.save
+    @helprequest = Helprequest.new help_request
+    if @helprequest.save
       render json: { message: "successful"}, status: 204
     end
   end

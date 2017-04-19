@@ -10,12 +10,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170419073022) do
+ActiveRecord::Schema.define(version: 20170419114516) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "cfhs", force: :cascade do |t|
+  create_table "helprequests", force: :cascade do |t|
     t.string   "title"
     t.string   "message"
     t.boolean  "status"

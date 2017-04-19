@@ -1,5 +1,5 @@
 FactoryGirl.define do
-  factory :cfh do
+  factory :helprequest do
     title "MyString"
     message "MyString"
     status true
