@@ -13,7 +13,7 @@ RSpec.describe Api::V1::CfhsController, type: :request do
       post "/api/v1/cfhs", params
 
       response.code.should eq "204"
-      expect(Cfh.where(title: "Burning")).to be_present
+      expect(Cfh.where(title: "Burning", message: 'Pants is burning',status: true )).to be_present
     end
   end
 end
