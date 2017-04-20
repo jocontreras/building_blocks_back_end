@@ -7,13 +7,19 @@ RSpec.describe Api::V1::HelpRequestsController, type: :request do
       params = {
         title: 'Burning',
         message: 'Pants is burning',
-        status: true
+        urgent: true
                 }
 
-      post "/api/v1/help_requests", params
+      post '/api/v1/help_requests', params
 
-      response.code.should eq "204"
-      expect(HelpRequest.where(title: "Burning", message: 'Pants is burning',status: true )).to be_present
+      expect(response.code).to eq '200'
+      object = HelpRequest.find_by(title: 'Burning', message: 'Pants is burning', urgent: true )
+      expect(object).to be_persisted
     end
+    it 'should render code 400 on failure' do
+      post '/api/v1/help_requests'
+      expected_response = {message: ["Title can't be blank", "Message can't be blank", "Urgent can't be blank"]}
+      expect(response.code).to eq '400'
+   end
   end
 end
