@@ -22,7 +22,8 @@
 
 = link_to 'New Booking', new_booking_path
 = month_calendar events: @bookings do |date, bookings|
-  = date
+  = date.strftime('%d')
   - bookings.each do |booking|
-    %div
+    .cal
       = booking.name
+      = booking.start_time.strftime('%H:%M')
