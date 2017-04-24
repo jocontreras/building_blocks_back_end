@@ -1,3 +1,14 @@
+GIT
+  remote: git://github.com/RundownApp/recurring_select.git
+  revision: b934e8d1fb20eb101086d1b03ecd766c97826eae
+  specs:
+    recurring_select (2.0.0)
+      coffee-rails (>= 3.1)
+      ice_cube (>= 0.11)
+      jquery-rails (>= 3.0)
+      rails (>= 3.2)
+      sass-rails (>= 4.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -288,6 +299,7 @@ DEPENDENCIES
   puma (~> 3.0)
   rack-cors
   rails (~> 5.0.2)
+  recurring_select!
   rspec-rails
   sass-rails (~> 5.0)
   shoulda-matchers

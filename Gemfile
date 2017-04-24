@@ -16,6 +16,7 @@ gem 'foundation-rails'
 gem 'devise_token_auth'
 gem 'simple_calendar'
 gem 'ice_cube'
+gem 'recurring_select', github: "RundownApp/recurring_select"
 
 group :development, :test do
   gem 'pry-byebug'
