@@ -1,0 +1,28 @@
+%h1 Listing bookings
+
+%table
+  %thead
+    %tr
+      %th Name
+      %th Start time
+      %th
+      %th
+      %th
+
+  %tbody
+    - @bookings.each do |booking|
+      %tr
+        %td= booking.name
+        %td= booking.start_time
+        %td= link_to 'Show', booking
+        %td= link_to 'Edit', edit_booking_path(booking)
+        %td= link_to 'Destroy', booking, :method => :delete, :data => { :confirm => 'Are you sure?' }
+
+%br
+
+= link_to 'New Booking', new_booking_path
+= month_calendar events: @bookings do |date, bookings|
+  = date
+  - bookings.each do |booking|
+    %div
+      = booking.name
