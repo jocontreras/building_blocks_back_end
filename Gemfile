@@ -14,6 +14,9 @@ gem 'rack-cors', require: 'rack/cors'
 gem 'devise'
 gem 'simple_calendar'
 gem 'recurring_select', github: "RundownApp/recurring_select"
+gem 'foundation-rails'
+gem 'devise_token_auth'
+
 
 group :development, :test do
   gem 'pry-byebug'
