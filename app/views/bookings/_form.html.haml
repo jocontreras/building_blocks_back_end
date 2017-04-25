@@ -15,5 +15,8 @@
       .field
         = f.label :start_time
         = f.datetime_select :start_time
+      .field
+        = f.label :recurring
+        = f.select_recurring  :recurring, nil, allow_blank: true
       .actions
         = f.submit 'Save'
