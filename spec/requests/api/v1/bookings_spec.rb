@@ -26,4 +26,25 @@ RSpec.describe "Bookings", type: :request do
        expect(response.status).to eq 200
      end
    end
+
+   describe 'POST /v1/facilities/:facility_id/bookings' do
+     it 'should collect call for Bookings from mobile client' do
+
+       params = {
+         name: 'Nisse',
+         start_time: '2017-04-01'
+                 }
+
+       post "/api/v1/facilities/#{facility.id}/bookings", params
+
+       expect(response.code).to eq '200'
+       object = Booking.find_by(name: 'Nisse', start_time: '2017-04-01')
+       expect(object).to be_persisted
+     end
+     it 'should render code 400 on failure' do
+       post "/api/v1/facilities/#{facility.id}/bookings/"
+       expected_response = {message: ["Title can't be blank", "Message can't be blank", "Urgent can't be blank"]}
+       expect(response.code).to eq '400'
+    end
+   end
 end
