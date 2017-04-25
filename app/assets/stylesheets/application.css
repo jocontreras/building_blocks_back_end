@@ -13,9 +13,7 @@
  *= require_tree .
  *= require_self
  *= require foundation_and_overrides
-
  */
-
 .footer {
     background-color: #333;
     color: white;
@@ -76,4 +74,23 @@ th {
    border-color: #d6e9c6 ;
    color: #468847 ;
    text-align: left;
+}
+
+.simple-calendar {
+  width: 1024px;
+  height: 600px;
+}
+
+  .day {
+    height: 140px;
+    vertical-align: top;
+    min-width:140px;
+  }
+
+  .today {
+    background-color: #FC8282;
+  }
+
+.cal {
+  background-color: #158E07;
 }
