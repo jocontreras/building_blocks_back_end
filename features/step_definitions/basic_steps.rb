@@ -40,3 +40,7 @@ end
 Given(/^I am on the new booking page$/) do
   visit '/bookings/new.2017-04-04'
 end
+
+Then(/^I am on the index booking page$/) do
+  visit bookings_path
+end
