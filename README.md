@@ -57,29 +57,40 @@ $ rails new building_blocks_back_end --database=postgresql --skip-test --skip-bu
 
 ## Running the test
 
-The administrator can login the  Building Blocks Back End
+###Log in
+In order to manage the app, the administrator can login the  Building Blocks Back End using the login form:
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/admin_login.png" />
 <br>
 
-Home Page
+###Home Page
+Once the administrator is logged in, he can see the Home Page, you can see the Urgent Help Requests, Latest News and Work Order Status
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/home.png" />
 <br>
 
-Help Request
+###Help Request Messages
+The administrator can view the Help Request Messages sent by tenants:
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/help_request.png" />
 <br>
 
-News
+###Facilities
+This form is being used to create and update information of facilities.
+<br>
+<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/facilities.png" />
+<br>
+
+###News
+This form is being used to create and update news.
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/news.png" />
 <br>
 
-Send Work Order
+###Send Work Order
+This form is being used to send work order to the janitor.
 <br>
-<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/send_work_order.png />
+<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/send_work_order.png" />
 <br>
 
 
