@@ -97,3 +97,18 @@ This form is being used to send work order to the janitor.
 ## Deployment
 * [Heroku](https://building-blockz.herokuapp.com/) - to deploy, manage, and scale modern apps
 * [Semaphore](https://semaphoreci.com/craftacademy/building_blocks_back_end) - for  continuous integration
+
+## Authors
+**Casper Jureskog** - https://github.com/casperjureskog
+**Fabian Lundgren** - https://github.com/fabianlundgren
+**Felix Fottander** - https://github.com/fottander
+**Jennifer Contreras** - https://github.com/jocontreras
+**Johan Schantz** - https://github.com/Scharrre97
+
+## Acknowledgments
+
+Special thanks to our dear coaches:
+* Amber Wilkie
+* Thomas Ochman
+* Raoul Diffou
+* Sigu Magwa
