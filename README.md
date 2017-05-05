@@ -1,7 +1,10 @@
-# README
 # Building Blocks Back End
 
 Building Blocks backend is the last project for CraftAcademy Cohort (Feb-April 2017). This is the back end of the app for housing societies that will accept help message request from tenants, send work request to janitors, receive booking of facilities and manage users account (tenant, admin and janitor).
+
+<br>
+<img height = "700" src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/logo4.png" />
+<br>
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for deployment and testing purposes.  See deployment for notes on how to deploy the project on a live system.
@@ -38,7 +41,21 @@ Configure Using Gemfile
 ```
  gem 'pg'
  ```
+### Scaffold Ruby on Rails
+If you don't have Rails installed beforehand, it is time to install it now. Rails is a ruby gem, so you can install it as any other gem:
+```
+$ gem install rails
+```
+Once you are done it is time to scaffold the Rails application we will be working with.
+```
+$ rails new building_blocks_back_end --database=postgresql --skip-test --skip-bundle
+```
+## Built with
+* Ruby on Rails
+* Cucumber
+* RSpec
+
 
 ## Deployment
 * [Heroku](https://building-blockz.herokuapp.com/) - to deploy, manage, and scale modern apps
-* [Semaphore](https://semaphoreci.com/craftacademy/building_blocks_back_end - for  continuous integration
+* [Semaphore](https://semaphoreci.com/craftacademy/building_blocks_back_end) - for  continuous integration
