@@ -14,17 +14,36 @@
  *= require_self
  *= require foundation_and_overrides
  */
+ .head {
+   padding: 5px;
+   text-align: center;
+  }
 
-.head {
-  padding: 5px;
-  text-align: center;
+ html{
+   position:relative;
+   min-height: 100%;
+ }
+
+ html,body{
+  margin:0;
+  padding:0;
 }
+
+.pageContentWrapper {
+  margin-bottom: 25px;
+}
+
 .footer {
     background-color: #23c1a0;
     color: white;
-    padding: 2px;
-    padding-right: 5px;
     text-align: right;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25px;
+    font-family: 'Julius Sans One', sans-serif;
+
 }
 
 .stat_green {
@@ -114,17 +133,20 @@ th {
 .simple-calendar {
   width: 1024px;
   height: 740px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .day {
   height: 140px;
   vertical-align: top;
   min-width:140px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .today {
   background-color: #23c1a0;
   opacity: 0.3;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 .cal {
@@ -190,10 +212,15 @@ ul.menu.menu-desktop {
 
 .button.inc {
   background-color: #23c1a0;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 p {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 15px;
   text-align: left;
+}
+
+p.help, .work, .booking {
+  text-align: center;
 }

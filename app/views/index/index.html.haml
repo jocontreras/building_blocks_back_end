@@ -18,7 +18,7 @@
               .stat_red
             = help.title
             %hr/
-            %p
+            %p.help
               = help.message
           - if help.workorder_id == nil
             = link_to 'Create work order' , new_workorder_path(help.id), class: 'button tiny inc'
@@ -44,5 +44,5 @@
               .stat_red
             = work.title
             %hr/
-            %p
+            %p.work
               = work.message
