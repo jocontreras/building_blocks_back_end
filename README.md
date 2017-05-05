@@ -3,7 +3,7 @@
 Building Blocks backend is the last project for CraftAcademy Cohort (Feb-April 2017). This is the back end of the app for housing societies that will accept help message request from tenants, send work request to janitors, receive booking of facilities and manage users account (tenant, admin and janitor).
 
 <br>
-<img height = "700" src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/logo4.png" />
+<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/logo4.png" />
 <br>
 
 ## Getting Started
@@ -54,6 +54,33 @@ $ rails new building_blocks_back_end --database=postgresql --skip-test --skip-bu
 * Ruby on Rails
 * Cucumber
 * RSpec
+
+## Running the test
+
+The administrator can login the  Building Blocks Back End
+<br>
+<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/admin_login.png" />
+<br>
+
+Home Page
+<br>
+<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/home.png" />
+<br>
+
+Help Request
+<br>
+<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/help_request.png" />
+<br>
+
+News
+<br>
+<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/news.png" />
+<br>
+
+Send Work Order
+<br>
+<img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/send_work_order.png />
+<br>
 
 
 ## Deployment
