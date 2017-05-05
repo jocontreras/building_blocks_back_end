@@ -63,19 +63,19 @@ In order to manage the app, the administrator can login the  Building Blocks Bac
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/admin_login.png" />
 <br>
 
-###Home Page
+### Home Page
 Once the administrator is logged in, he can see the Home Page, you can see the Urgent Help Requests, Latest News and Work Order Status
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/home.png" />
 <br>
 
-###Help Request Messages
+### Help Request Messages
 The administrator can view the Help Request Messages sent by tenants:
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/help_request.png" />
 <br>
 
-###Facilities
+### Facilities
 This form is being used to create and update information of facilities.
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/facilities.png" />
@@ -87,7 +87,7 @@ This form is being used to create and update news.
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/news.png" />
 <br>
 
-###Send Work Order
+### Send Work Order
 This form is being used to send work order to the janitor.
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/send_work_order.png" />
