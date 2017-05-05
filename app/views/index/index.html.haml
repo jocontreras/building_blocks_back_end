@@ -16,7 +16,8 @@
           .card-divider
             = help.title
             %hr/
-          = help.message
+            %p
+              = help.message
           %br
           - if help.workorder_id == nil
             = link_to 'Create work order' , new_workorder_path(help.id), class: 'w_link'
@@ -26,18 +27,21 @@
           .card-divider
             = news.title
             %hr/
-          = news.description
+            %p
+              = news.description
 
     %th.work
       - @workorder.each do |work|
         .card
           .card-divider
-            = work.title
-            %hr/
             - if work.status == 'Done'
               .stat_green
             -elsif work.status == 'In progress'
               .stat_yellow
             -elsif work.status == 'Unable to complete'
               .stat_red
-          = work.message
+            = work.title
+            %hr/
+            %p
+              = work.message
+

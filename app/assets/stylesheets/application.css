@@ -37,6 +37,7 @@
     color:#fff;
     line-height:30px;
     text-align:center;
+    position: absolute;
 }
 
 .stat_yellow {
@@ -49,6 +50,7 @@
     color:#fff;
     line-height:30px;
     text-align:center;
+    position: absolute;
 }
 
 .stat_red {
@@ -61,6 +63,7 @@
     color:#fff;
     line-height:30px;
     text-align:center;
+    position: absolute;
 }
 
 .card {
@@ -174,4 +177,10 @@ ul.menu.menu-desktop {
 
 .button.inc {
   background-color: #23c1a0;
+}
+
+p {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  text-align: left;
 }
