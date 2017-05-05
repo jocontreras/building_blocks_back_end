@@ -81,7 +81,7 @@ This form is being used to create and update information of facilities.
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/facilities.png" />
 <br>
 
-###News
+### News
 This form is being used to create and update news.
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/news.png" />
