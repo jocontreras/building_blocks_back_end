@@ -57,7 +57,7 @@ $ rails new building_blocks_back_end --database=postgresql --skip-test --skip-bu
 
 ## Running the test
 
-###Log in
+### Log in
 In order to manage the app, the administrator can login the  Building Blocks Back End using the login form:
 <br>
 <img src = "https://github.com/jocontreras/building_blocks_back_end/blob/update_readme/app/assets/images/admin_login.png" />
